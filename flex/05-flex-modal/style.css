@@ -13,15 +13,30 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  
 }
 
 .modal {
   background: white;
   width: 480px;
+  display: flex;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  gap: 15px;
+  padding: 15px;
 }
-
+.header-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -29,6 +44,7 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  flex-shrink: 0;
   border-radius: 50%;
   display: flex;
   align-items: center;
